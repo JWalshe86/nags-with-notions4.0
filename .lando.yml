@@ -1,0 +1,5 @@
+name: nags-with-notions4.0
+recipe: drupal10
+services:
+  myservice:
+    type: phpmyadmin

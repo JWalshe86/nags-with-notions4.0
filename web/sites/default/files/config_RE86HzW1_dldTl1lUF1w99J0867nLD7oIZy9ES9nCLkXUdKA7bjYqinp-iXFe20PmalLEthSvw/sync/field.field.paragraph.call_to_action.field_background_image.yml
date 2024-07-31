@@ -11,7 +11,7 @@ id: paragraph.call_to_action.field_background_image
 field_name: field_background_image
 entity_type: paragraph
 bundle: call_to_action
-label: 'Background Image'
+label: ''
 description: ''
 required: false
 translatable: false

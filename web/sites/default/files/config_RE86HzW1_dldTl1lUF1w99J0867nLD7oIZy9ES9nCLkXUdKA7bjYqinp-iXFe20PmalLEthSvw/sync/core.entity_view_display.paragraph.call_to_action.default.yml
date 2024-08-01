@@ -1,4 +1,4 @@
-uuid: 42f643ef-1bcf-4200-8d16-8c177b1217d0
+uuid: b48fb996-f957-41dc-8e09-59e627039952
 langcode: en
 status: true
 dependencies:
@@ -6,7 +6,6 @@ dependencies:
     - field.field.paragraph.call_to_action.field_background_image
     - field.field.paragraph.call_to_action.field_link
     - field.field.paragraph.call_to_action.field_text
-    - field.field.paragraph.call_to_action.field_title
     - paragraphs.paragraphs_type.call_to_action
   module:
     - image
@@ -18,18 +17,18 @@ mode: default
 content:
   field_background_image:
     type: image
-    label: above
+    label: hidden
     settings:
       image_link: ''
       image_style: ''
       image_loading:
         attribute: lazy
     third_party_settings: {  }
-    weight: 0
+    weight: 3
     region: content
   field_link:
     type: link
-    label: above
+    label: hidden
     settings:
       trim_length: 80
       url_only: false
@@ -41,17 +40,9 @@ content:
     region: content
   field_text:
     type: basic_string
-    label: above
+    label: hidden
     settings: {  }
     third_party_settings: {  }
     weight: 2
-    region: content
-  field_title:
-    type: string
-    label: above
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
-    weight: 3
     region: content
 hidden: {  }

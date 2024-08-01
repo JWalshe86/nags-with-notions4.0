@@ -1,4 +1,4 @@
-uuid: a2caa065-b01a-4063-8c0f-57dcd8ff6054
+uuid: c387f5f4-2142-43e7-8308-45d9d17d69c1
 langcode: en
 status: true
 dependencies:
@@ -11,7 +11,7 @@ id: paragraph.call_to_action.field_background_image
 field_name: field_background_image
 entity_type: paragraph
 bundle: call_to_action
-label: ''
+label: 'Background Image'
 description: ''
 required: false
 translatable: false

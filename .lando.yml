@@ -1,5 +1,7 @@
-name: nags-with-notions4.0
+name: nagswithnotions
 recipe: drupal10
 services:
   myservice:
     type: phpmyadmin
+config:
+  webroot: .

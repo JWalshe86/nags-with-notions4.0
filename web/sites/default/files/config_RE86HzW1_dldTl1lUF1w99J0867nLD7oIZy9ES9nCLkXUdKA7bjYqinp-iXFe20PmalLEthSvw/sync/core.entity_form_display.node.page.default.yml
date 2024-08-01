@@ -4,7 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.page.body
-    - field.field.node.page.field_calls_to_action
+    - field.field.node.page.field_call_to_action
     - node.type.page
   module:
     - paragraphs
@@ -33,7 +33,7 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_calls_to_action:
+  field_call_to_action:
     type: paragraphs
     weight: 121
     region: content

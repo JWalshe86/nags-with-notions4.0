@@ -26,7 +26,7 @@ libraries-extend:
     - bootstrap5/progress
 
 ckeditor_stylesheets:
-  - css/style.css
+  - css/custom.css
 ckeditor5-stylesheets:
   - css/ck5style.css
 

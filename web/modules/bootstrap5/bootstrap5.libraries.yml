@@ -112,7 +112,7 @@ bootstrap5-js-latest:
 global-styling:
   css:
     theme:
-      css/style.css: {}
+      css/custom.css: {}
 
 drupal.nav-tabs:
   version: '5.3.3'

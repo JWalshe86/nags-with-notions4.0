@@ -187,7 +187,7 @@ class SubthemeManager {
           'global-styling:',
           '  css:',
           '    theme:',
-          '      css/style.css: {}',
+          '      css/custom.css: {}',
           '',
         ],
         'bootstrap5.theme' => [
@@ -210,7 +210,7 @@ class SubthemeManager {
           '',
           'Prerequisites: install [sass](https://sass-lang.com/install).',
           '',
-          'To compile, run from subtheme directory: `sass scss/style.scss css/style.css && sass scss/ck5style.scss css/ck5style.css`',
+          'To compile, run from subtheme directory: `sass scss/style.scss css/custom.css && sass scss/ck5style.scss css/ck5custom.css`',
           '',
         ],
       ];

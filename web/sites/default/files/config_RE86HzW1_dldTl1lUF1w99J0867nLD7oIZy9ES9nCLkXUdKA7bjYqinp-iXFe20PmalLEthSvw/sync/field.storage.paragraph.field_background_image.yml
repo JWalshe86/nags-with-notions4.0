@@ -1,4 +1,4 @@
-uuid: 797fdc15-e47c-436c-9aaf-b788e3f96395
+uuid: 7a783cf2-7283-4856-8125-5e62d44079ea
 langcode: en
 status: true
 dependencies:
@@ -16,11 +16,11 @@ settings:
   display_default: false
   uri_scheme: public
   default_image:
-    uuid: b466f19e-ff22-42a7-86bc-542c8dd8a91a
-    alt: 'Image of pizza in cardboard box'
-    title: 'Delicious sourdough pizza'
-    width: 2048
-    height: 1536
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
 module: image
 locked: false
 cardinality: 1
